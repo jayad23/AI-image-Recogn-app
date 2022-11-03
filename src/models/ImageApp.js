@@ -50,6 +50,8 @@ const ImageApp = () => {
 
     const uploadImage = (e) => {
         setError(null);
+        setImgUrl(null)
+        setClassifyResults(null);
         setIsImageLoading(true);
         const { files } = e.target;
 
